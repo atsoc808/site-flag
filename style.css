@@ -27,7 +27,8 @@
 }
 
 .locals li a {
-    color: orange;
+    color: rgb(240, 89, 34);
+    ;
 }
 
 .locals li a:hover {
@@ -47,19 +48,48 @@
 
 /* -------NAV-BAR--------- */
 
-.menu {
-    list-style-type: none;
-    background-color: #333;
+
+/* ---------CODIGO RAQUEL------ */
+
+
+/* -----------IMAGEM------- */
+
+.hero {
+    position: relative;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 75px;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 75px;
+    right: 0px;
+}
+
+
+/* -----CLASSES GERAIS------ */
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    color: rgb(240, 89, 34);
+    ;
+}
+
+
+/* ------TABLE----- */
+
+.feature-title {
+    background-color: rgb(240, 89, 34);
     margin: 0;
-    padding: 0;
-    margin-top: 45px;
 }
 
-.menu li {
-    float: left;
-}
-
-.menu li a {
-    color: orange;
-    display: block;
+.table-header {
+    background-color: rgb(234, 234, 234);
+    border-collapse: collapse;
 }
