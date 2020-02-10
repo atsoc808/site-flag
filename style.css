@@ -92,4 +92,10 @@ a {
 .table-header {
     background-color: rgb(234, 234, 234);
     border-collapse: collapse;
+    margin: 0;
+}
+
+.courses {
+    border-collapse: collapse;
+    text-decoration: none;
 }
