@@ -79,11 +79,6 @@ body {
     text-decoration: none;
 }
 
-.locals li a {
-    color: rgb(240, 89, 34);
-    ;
-}
-
 .locals li a:hover {
     text-decoration: underline;
 }
@@ -119,17 +114,30 @@ body {
 .menu li:first-child {
     margin-right: 170px;
     margin-left: 10px;
-
 }
 
 a {
     font-size: 11px;
-    color: #ff6e00;
+    color: #ff6f00;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.side-bar {
+    width: 200px;
+    padding: 10px;
+}
+
+.content-wrapper {
+    border: 1px solid #cecece;
+}
+
+.courses-list li {
+    background-color: #333;
+    margin: 2px;
 }
 /* ---------CODIGO RAQUEL------ */
 
