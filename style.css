@@ -80,7 +80,8 @@ body {
 }
 
 .locals li a {
-    color: orange;
+    color: rgb(240, 89, 34);
+    ;
 }
 
 .locals li a:hover {
@@ -129,4 +130,47 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+/* ---------CODIGO RAQUEL------ */
+
+
+/* -----------IMAGEM------- */
+
+.hero {
+    position: relative;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 75px;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 75px;
+    right: 0px;
+}
+
+
+/* -----CLASSES GERAIS------ */
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    color: rgb(240, 89, 34);
+}
+
+
+/* ------TABLE----- */
+
+.feature-title {
+    background-color: rgb(240, 89, 34);
+    margin: 0;
+}
+
+.table-header {
+    background-color: rgb(234, 234, 234);
+    border-collapse: collapse;
 }
